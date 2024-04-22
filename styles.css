@@ -1,0 +1,39 @@
+h1{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#input-box{
+    margin-left: 20px;
+    height: 30px;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+#units{
+    margin-left: 20px;
+}
+.outputdiv{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.outputdiv button{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+
+}
